@@ -274,3 +274,123 @@ footer p {
     height: 28px;
     object-fit: contain;
 }
+
+/* CONTACT PAGE */
+
+.contact-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-header h1 {
+    font-family: var(--heading-font);
+    margin-bottom: 6px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    display: inline;
+    justify-self: unset;
+}
+
+/* Map */
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Form */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: start;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #999;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 6px;
+    border: 1px solid #999;
+}
+
+.radio-group {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.checkbox {
+    margin-top: 6px;
+}
+
+.contact-form button {
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    background: #eee;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+/* Employees */
+
+.employees {
+    background: #e8e8e8;
+    padding: 20px;
+    text-align: center;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.employee-grid img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    background: #ccc;
+}
+
+.employee-grid figcaption {
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
