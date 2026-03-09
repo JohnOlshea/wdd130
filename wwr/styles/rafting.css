@@ -182,8 +182,8 @@ header nav a:hover {
     height: 160px;
     object-fit: cover;
     display: block;
-    background-color: #5a3fa0;
-    /* fallback purple matching wireframe */
+    background-color: var(--accent1-color);
+    ;
 }
 
 /* ─────────────────────────────────────────
@@ -230,7 +230,7 @@ header nav a:hover {
 .adventures-grid figcaption {
     font-size: 0.78rem;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 /* ─────────────────────────────────────────
@@ -248,7 +248,7 @@ footer p {
     grid-column: 2;
     text-align: center;
     font-size: 0.85rem;
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 /* Social media nav */
