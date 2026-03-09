@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+    <!-- HEADER: CSS Grid for logo + nav side by side -->
     <header>
         <img src="images/logo.png" alt="Exciting Expeditions Logo">
         <nav>
@@ -21,32 +23,70 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
+
+        <!-- HERO SECTION: full-width image, h1 at top, article overlay at bottom -->
         <div class="hero">
             <img src="images/hero.jpg" alt="Rafting Adventure">
-            <h1>Rapids! Make Memories!</h1>
+            <h1>White Water Rafting</h1>
             <article>
                 <img src="images/happy-client.jpg" alt="Happy Rafting Client">
-                <p>Our goal is to provide you with the best experience possible. We have been
-                    providing unforgettable experiences for over 30 years. We are a family owned
-                    and operated business that is dedicated to providing you with the best
-                    experience possible. We have a team of experienced guides that are dedicated
-                    to providing you with the best experience possible.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit,
+                    vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus,
+                    ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique,
+                    tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris
+                    sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum
+                    in tempus ut, vehicula eu diam.</p>
             </article>
         </div>
-        <section>
+
+        <!-- HISTORY SECTION: 3-column grid — text | image | text -->
+        <section class="history">
             <h2>History</h2>
-            <p>Rapids! started floating the river in 1995. We have been providing unforgettable
-                experiences for over 30 years. We are a family owned and operated business that is
-                dedicated to providing you with the best experience possible. We have a team of
-                experienced guides that are dedicated to providing you with the best experience
-                possible. We have a team of experienced guides that are dedicated to providing you
-                with the best experience possible.</p>
+            <div class="history-grid">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit,
+                    vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus,
+                    ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique,
+                    tortor mauris molestie elit, et lacinia ipsum</p>
+                <img src="images/history.jpg" alt="Rafting History">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit,
+                    vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus,
+                    ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique,
+                    tortor mauris molestie elit, et lacinia ipsum quam nec</p>
+            </div>
         </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
+
+        <!-- ADVENTURES SECTION: 5 figures with figcaptions in a row -->
+        <section class="adventures">
+            <h2>Adventure Awaits You</h2>
+            <div class="adventures-grid">
+                <figure>
+                    <img src="images/adv1.jpg" alt="Los Dientes del Diablo rapid">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adv2.jpg" alt="Big Mallard rapid">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adv3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adv4.jpg" alt="Thunder Canyon rapid">
+                    <figcaption>Thunder Canyon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adv5.jpg" alt="Salmon River Full Day">
+                    <figcaption>Salmon River Full Day</figcaption>
+                </figure>
+            </div>
         </section>
+
     </main>
+
+    <!-- FOOTER: copyright left, social icons right -->
     <footer>
         <p>&copy;2026 | Exciting Expeditions | John Oluseye Akala</p>
         <nav class="socialmedia">
@@ -56,6 +96,7 @@
                   alt="Instagram Icon"></a>
         </nav>
     </footer>
+
 </body>
 
 </html>
