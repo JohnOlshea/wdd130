@@ -226,6 +226,10 @@ header nav a:hover {
     gap: 6px;
 }
 
+.adventures-grid figcaption {
+    color: var(--accent2-color);
+}
+
 .adventures-grid img {
     width: 100%;
     aspect-ratio: 1 / 1;
