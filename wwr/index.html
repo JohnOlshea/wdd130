@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Dry Oar Rafting</title>
+    <title>Home | Exciting Expeditions Rafting</title>
     <meta name="description"
-      content="Dry Oar White Water Rafting adventures. Make memories with rivers, camping, and rapids.">
+      content="Exciting Expeditions Rafting – experience thrilling white water rafting adventures, guided trips, and unforgettable outdoor experiences.">
+    <meta name="author" content="John Oluseye Akala">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-
     <!-- HEADER -->
     <header>
-        <img src="images/logo.png" alt="Dry Oar Logo">
+        <img src="images/logo.png" alt="Exciting Expeditions Logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -24,57 +24,110 @@
     </header>
 
     <main>
-
         <!-- HERO SECTION -->
         <section class="hero-home">
-            <img src="images/hero_transparency.png" alt="White Water Rafting Adventure">
+            <img src="images/hero.jpg" alt="Group of rafters navigating white water rapids">
             <div class="hero-text">
                 <h1>Have An Adventure</h1>
-                <p>Make Memories with Dry Oar</p>
-                <a href="trips.html" class="btn-cta">Book Now</a>
+                <p>Make Memories with Exciting Expeditions</p>
+                <a href="trips.html" class="btn-cta">Explore Our Trips</a>
             </div>
         </section>
 
-        <!-- FEATURES GRID -->
-        <section class="features-grid">
-            <div class="feature">
-                <img src="images/river.jpg" alt="River">
-                <h3>Rivers</h3>
-            </div>
-            <div class="feature">
-                <img src="images/camping.jpg" alt="Camping">
-                <h3>Camping</h3>
-            </div>
-            <div class="feature">
-                <img src="images/rapids.jpg" alt="Rapids">
-                <h3>Rapids</h3>
-            </div>
-        </section>
-
-        <!-- HIGHLIGHT SECTION -->
-        <section class="highlight">
-            <img src="images/landscape.jpg" alt="Scenic Mountains">
-            <div class="highlight-text">
-                <h2>More Than Just The Thrill</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks;
-                    it's way more than just the rapids. Relax and get away amongst all the beauty of
-                    the great outdoors.</p>
-                <a href="contact.html" class="btn-cta">Join Us</a>
+        <!-- NEWSLETTER SECTION -->
+        <section class="newsletter">
+            <div class="newsletter-inner">
+                <h2>Stay in the Current</h2>
+                <p>Sign up for our newsletter to get trip updates, special offers, and adventure
+                    inspiration.</p>
+                <form class="newsletter-form" action="#" method="get">
+                    <div class="newsletter-fields">
+                        <div class="newsletter-field">
+                            <label for="newsletter-name">Name</label>
+                            <input type="text" id="newsletter-name" name="name"
+                              placeholder="Your Name" required>
+                        </div>
+                        <div class="newsletter-field">
+                            <label for="newsletter-email">Email</label>
+                            <input type="email" id="newsletter-email" name="email"
+                              placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-newsletter">Sign Me Up!</button>
+                </form>
             </div>
         </section>
 
+        <!-- FEATURES GRID (CSS Grid with images + content) -->
+        <section class="offerings">
+            <h2>What We Offer</h2>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <img src="images/river.jpg" alt="Scenic river winding through forest">
+                    <div class="offering-text">
+                        <h3>Scenic Rivers</h3>
+                        <p>Navigate breathtaking rivers surrounded by stunning natural landscapes.
+                            Every bend reveals something new and awe-inspiring.</p>
+                    </div>
+                </div>
+                <div class="offering-card">
+                    <img src="images/camping.jpg" alt="Camping tent by mountain river">
+                    <div class="offering-text">
+                        <h3>Riverside Camping</h3>
+                        <p>Extend your adventure with overnight camping along pristine riverbanks.
+                            Fall asleep to the sound of rushing water under the stars.</p>
+                    </div>
+                </div>
+                <div class="offering-card">
+                    <img src="images/rapids.jpg" alt="Rafters conquering white water rapids">
+                    <div class="offering-text">
+                        <h3>Thrilling Rapids</h3>
+                        <p>From beginner-friendly riffles to heart-pounding Class IV rapids, we have
+                            the perfect challenge for every level of adventurer.</p>
+                    </div>
+                </div>
+                <div class="offering-card offering-highlight">
+                    <div class="offering-text full">
+                        <h3>Expert-Led Safety</h3>
+                        <p>All our guides are certified professionals with years of experience. Your
+                            safety is our top priority — so you can focus entirely on the thrill.
+                        </p>
+                        <a href="trips.html" class="btn-cta">See All Trips</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION BANNER -->
+        <section class="cta-banner">
+            <div class="cta-image-wrapper">
+                <img src="images/landscape.jpg" alt="Mountain valley river landscape at sunrise">
+                <div class="cta-overlay">
+                    <h2>More Than Just The Thrill</h2>
+                    <p>Enjoy breathtaking scenery — valleys, meadows, canyons, and high peaks. It's
+                        a great way to get away from it all and reconnect with the beauty of the
+                        great outdoors.</p>
+                    <a href="trips.html" class="btn-cta">Join Us</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Dry Oar | John Oluseye Akala</p>
+        <p>&copy; 2026 Exciting Expeditions Rafting | John Oluseye Akala</p>
         <nav class="socialmedia">
-            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Visit our Facebook page">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Visit our Twitter page">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Visit our Instagram page">
+            </a>
         </nav>
     </footer>
-
 </body>
 
 </html>
